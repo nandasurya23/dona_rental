@@ -1,0 +1,92 @@
+.product-details{
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+
+.product-details h1{
+  margin-top: 150px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.details{
+  display: flex;
+}
+
+.product img{
+  box-shadow: 3px 4px 4px rgba(198, 87, 48, 0.5);
+  border-radius: 25px;
+  width:  500px;
+  height: 500px;
+}
+
+.desc{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  font-size: 28px;
+}
+
+.rent-form{
+  background-color: #2A2A34;
+  border-radius: 50px;
+  margin: 50px 250px;
+  color: white;
+  padding: 85px 165px;
+}
+
+form{
+  text-align: left;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form h1{
+  margin-bottom: 50px;
+}
+.box input {
+  border-radius: 15px;
+  min-width: 500px;
+  height: 50px;
+  margin: 20px 0px;
+  padding: 20px;
+}
+form span{
+  color: red;
+}
+
+.date{
+  display: flex;
+  gap:20px;
+}
+
+.start input,
+.end input{
+  width: 240px;
+  height: 50px;
+  margin: 20px 0px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.btn{
+  font-size: 22px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  text-decoration: none;
+  background: linear-gradient(171.94deg,#FF8811, #C65730);
+  border-color: #FF8811;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.btn:hover{
+  background:linear-gradient(#bf7933, #893010);
+  border-color: #ae441e;
+  box-shadow: #ae441e;
+  text-shadow: #2A2A34;
+}
